@@ -1,0 +1,73 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "k9s": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/zlj0xzglp3ppxpw9bwldj4y46cpg5wan-k9s-0.27.4",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "k9s"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/zlj0xzglp3ppxpw9bwldj4y46cpg5wan-k9s-0.27.4"
+              ],
+              "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+            },
+            "eval": {
+              "meta": {
+                "description": "Kubernetes CLI To Manage Your Clusters In Style",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/applications/networking/cluster/k9s/default.nix:46",
+                "unfree": false
+              },
+              "name": "k9s-0.27.4",
+              "outputs": {
+                "out": "/nix/store/zlj0xzglp3ppxpw9bwldj4y46cpg5wan-k9s-0.27.4"
+              },
+              "pname": "k9s",
+              "system": "aarch64-darwin",
+              "version": "0.27.4"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "k9s"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/zlj0xzglp3ppxpw9bwldj4y46cpg5wan-k9s-0.27.4"
+              ],
+              "url": "flake:nixpkgs-flox/b106c2d78d4258d781488743178a6ec63dc555ba"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1684754342,
+                "revCount": 487203
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

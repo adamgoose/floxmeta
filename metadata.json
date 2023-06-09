@@ -1,13 +1,22 @@
 {
-  "currentGen": "1",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1686333857,
-      "lastActive": 1686333857,
+      "lastActive": 1686333864,
       "logMessage": [
         "adam created environment"
       ],
       "path": "/nix/store/lfy4pajaa8zww33f8x2za43zzgk5rwbl-floxShell",
+      "version": 2
+    },
+    "2": {
+      "created": 1686333864,
+      "lastActive": 1686333864,
+      "logMessage": [
+        "adam installed stable.nixpkgs-flox.k9s"
+      ],
+      "path": "/nix/store/z2qvkgj2d4qcswhj9j9gf06q89jr8lsx-floxShell",
       "version": 2
     }
   },
